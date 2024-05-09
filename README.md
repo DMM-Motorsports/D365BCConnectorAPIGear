@@ -8,7 +8,7 @@ Efficient C# connector for Dynamics365 Business Central API, facilitating easy A
 ## Overview
 
 This API connector is designed to integrate with the Microsoft Dynamics 365 Business Central API version 2.0. For more detailed information 
-about the API, please visit the [official Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+about the API, please visit the [official Microsoft documentation] (https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
 
 ## API Authorization Details
