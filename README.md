@@ -3,8 +3,6 @@
 Efficient C# connector for Dynamics365 Business Central API, facilitating easy API connectivity. 
 
 
-
-
 # Microsoft Dynamics 365 Business Central API Connector (Version 2.0)
 
 ## Overview
@@ -21,11 +19,15 @@ To authorize API requests, you will need the following credentials:
 - **Client ID:** The unique identifier (GUID) for your API client.
 - **Client Secret:** The secret key used for OAuth authentication.
 - **Tenant ID:** This identifier (GUID) represents the company within your environment. You can retrieve your company's GUID by using the company service to list the companies in your environment.
+- **Company Id:** Is the envirment id of the company you want to connect to. You can retrieve the company id by using the company service to list the companies in your environment.
+
 
 Ensure that these credentials are stored securely and used only where necessary to connect to the Business Central API.
 
 
-## Company / Business Central Environment Details
+## Company Service / Business Central Environment Details
+
+You will want to obtain the company id of the company you want to connect to. You can retrieve the company id by using the company service to list the companies in your environment. Here is some example code on how to retrieve the company id.
 
 
 ```csharp
@@ -45,4 +47,3 @@ foreach (var company in companyListResponse.Value)
 }
 ```
 
-gfdg
