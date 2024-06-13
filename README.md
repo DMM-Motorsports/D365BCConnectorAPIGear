@@ -32,9 +32,9 @@ You will want to obtain the company id of the company you want to connect to. Yo
 ```csharp
 using D365BCConnectorAPIGear;
 
-var clientId = "03026dd1-b405-4d2a-97fb-90400071a46d";
-var clientSecret = "f723hds82hd7jw83ewSDF328fj210fk01~!rt9sa9kd9";
-var tenantId = "7246f4d8-fc94-4b6e-bd31-f256a6c5858e";
+var clientId = "00000000-0000-0000-0000-000000000000";
+var clientSecret = "f723hds82h!rt9sa9kd9";
+var tenantId = "00000000-0000-0000-0000-000000000000";
 
 var companyApiService = new CompanyService(clientId, clientSecret, tenantId);
 
